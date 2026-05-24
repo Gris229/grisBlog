@@ -8,7 +8,7 @@ catch (Exception $e)
     die('Erreur : ' . $e->getMessage());
 }
 
-//CECI EST UN TEST POUR S'ASSURER QUE LA LIAISON AVEC LA BD FONCTIONNE SANS AUCUN PROBLEME
+/*CECI EST UN TEST POUR S'ASSURER QUE LA LIAISON AVEC LA BD FONCTIONNE SANS AUCUN PROBLEME
 
 // On récupère tout le contenu de la table recipes
 $sqlQuery = 'SELECT * FROM users';
